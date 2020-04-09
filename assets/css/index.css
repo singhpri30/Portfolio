@@ -1,0 +1,70 @@
+
+body{
+    background-color: rgb(208, 247, 247);
+}
+
+/*nav brand style*/
+#brand{
+    color: bisque;
+    font-weight: bold;
+    font-size: x-large;
+}
+.nav-links{
+    color: rgb(180, 173, 164);
+}
+/*h1 heading style*/
+#main-heading{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+/*profile image style*/
+.profile-img{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+}
+/*h2 heading style*/
+#profile-heading{
+    font-weight: bold;
+    font-size: 30px;
+}
+/*p1 style*/
+#profile-summary{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*footer style*/
+
+html{
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+  .footer{
+    height: 40px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    }
+
+    .navbar-light button.navbar-toggler.collapsed span.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(180, 173, 164,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+
+
+@media screen and (max-width:576px){
+    h2{
+        margin-top: 10px;
+        
+
+    }
+    p{
+        font-size: 27px;
+    
+    }
+    .profile-img{
+        width: 100%;
+        height: auto;
+    }
+}
