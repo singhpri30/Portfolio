@@ -1,89 +1,128 @@
-
 body{
     background-color: rgb(188, 189, 189);
-
+    padding-bottom: 61px;
+}
+html{
+    position: relative;
+    min-height: 100%;
+    
 }
 
-/*nav brand style*/
+/*brand name style*/
 #brand{
     color: bisque;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 30px;
 }
-.nav-links{
-    color: rgb(180, 173, 164);
-}
+
 /*navigation style details*/
 .navbar-nav{
     margin-left: auto;
 }
- #nav-container{
-        padding-left: 0;
-    }
-    .navbar-nav .nav-link{
-        padding: 10px;
-    }
+ 
 
-
-
-
-/*h1 heading style*/
+/*main section h1 heading*/
 #main-heading{
     font-family: 'Times New Roman', Times, serif;
     margin-top: 10px;
+    font-weight: bold;
 }
-/*profile image style*/
+
+/*profile image*/
 .profile-img{
-    margin-top: 10px;
+    margin: 10px 10px 0 0;
     width: 250px;
     height: 250px;
+    float: left;
 }
-/*h2 heading style*/
+/*h2 heading*/
 #profile-heading{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
-/*p1 style*/
+/*section content*/
 #profile-summary{
     font-family: Arial, Helvetica, sans-serif;
 }
-/*footer style*/
-
-html{
-    position: relative;
-    min-height: 100%;
-}
-
-  .footer{
-    height: 40px;
+/*footer*/
+.footer{
+    height: 55px;
     bottom: 0;
     position: absolute;
     width: 100%;
     }
-    h3{
-        font-size: 20px;
-        color: azure;
-        margin-top: 5px;
+/*footer heading*/    
+h3{
+    font-size: 20px;
+    color: azure;
+    margin-top: 15px;
     }
 
-@media screen and (max-width:576px){
-    h2{
-        margin-top: 10px;
-        
+/*portfolio image and button in portfolio page*/
+.card-position{
+    position: relative;
+    margin-bottom: 8px;
+}
+.btn1{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: beige;
+    background-color: rgb(38, 58, 57);
+}
 
-    }
-    p{
-        font-size: 27px;
-    
-    }
-    .profile-img{
-        width: 100%;
-        height: auto;
-    }
-    .footer{
-        height: 40px;
-        bottom: 0;
-        position: relative;
-        width: 100%;
+/*form style in contact page*/
+#contact-form{
+    background-color: rgb(105, 122, 121);
+    border:10px;
+    border: 1px solid rgb(170, 209, 187);
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+}
+/*form input fields style*/ 
+.form-group{
+    margin: 8px;
+    padding-top: 8px;
+}
+
+
+/*media query for devices with max screen size 768px*/
+@media screen and (max-width:768px){
+#contact-form{
+    width: 100%;
+    height: auto;
         }
+#main-heading{
+    font-size: 32px;
+        }
+#profile-heading{
+    font-size: 22px;
+        }
+#profile-summary{
+    font-size: 18px;
+            }
+    }
+/*media query for devices with max screen size 640px*/
+@media screen and (max-width:640px){
+#main-heading{
+    font-size: 31px;
+        }
+#profile-summary{
+    font-size: 18px;
+    }
+#profile-heading{
+    font-size: 22px;
+        }  
+.profile-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    }
+#contact-form{
+    width: 100%;
+    height: auto;
+    }
 }
