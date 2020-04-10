@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(188, 189, 189);
     padding-bottom: 61px;
+    background-image: url("../images/background_img.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 html{
     position: relative;
@@ -10,7 +13,7 @@ html{
 
 /*brand name style*/
 #brand{
-    color: bisque;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 30px;
 }
@@ -42,7 +45,7 @@ html{
 }
 /*section content*/
 #profile-summary{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 /*footer*/
 .footer{
@@ -75,7 +78,7 @@ h3{
 
 /*form style in contact page*/
 #contact-form{
-    background-color: rgb(105, 122, 121);
+    background-color: rgb(84, 133, 126);
     border:10px;
     border: 1px solid rgb(170, 209, 187);
     border-radius: 10px;
@@ -103,7 +106,8 @@ h3{
         }
 #profile-summary{
     font-size: 18px;
-            }
+    
+        }
     }
 /*media query for devices with max screen size 640px*/
 @media screen and (max-width:640px){
@@ -112,6 +116,7 @@ h3{
         }
 #profile-summary{
     font-size: 18px;
+    
     }
 #profile-heading{
     font-size: 22px;
