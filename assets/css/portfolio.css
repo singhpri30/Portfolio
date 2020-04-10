@@ -1,9 +1,23 @@
-.img-size{
-    height: 300px;
-    width: 300px;
-    margin-top: 10px;
+/*portfolio image and button*/
+.card-position{
+    position: relative;
+}
+.btn1{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: beige;
+    background-color: rgb(38, 58, 57);
+}
+#link1{
+    padding-top: 10px;
 }
 
+#row2{
+    margin-top: 10px;
+}
 
 
 
@@ -19,33 +33,26 @@
     }
 }
 
-@media screen and (min-width:576px) and (max-width:768px){
+@media screen and (min-width:641px) and (max-width:768px){
 
-        .img-size{
-            margin-bottom: 4px;
         
-        }
 }
 
 
 
 
 
-@media screen and (max-width:576px){
-    .footer{
-        height: 40px;
-        bottom: 0;
+@media screen and (max-width:640px){
+        .footer{
         position: relative;
-        width: 100%;
+        margin-top: 5px;
         }
-        h3{
-            font-size: 20px;
-            color: azure;
-            margin-top: 5px;
+
+        .col1{
+            margin-bottom: 8px;
         }
-        .img-size{
-            margin-bottom: 4px;
-            width: 100%;
+        #row2{
+            margin-top: 1px;
+        }
         
-        }
 }

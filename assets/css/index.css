@@ -1,6 +1,7 @@
 
 body{
-    background-color: rgb(222, 241, 241);
+    background-color: rgb(188, 189, 189);
+
 }
 
 /*nav brand style*/
@@ -12,6 +13,20 @@ body{
 .nav-links{
     color: rgb(180, 173, 164);
 }
+/*navigation style details*/
+.navbar-nav{
+    margin-left: auto;
+}
+ #nav-container{
+        padding-left: 0;
+    }
+    .navbar-nav .nav-link{
+        padding: 10px;
+    }
+
+
+
+
 /*h1 heading style*/
 #main-heading{
     font-family: 'Times New Roman', Times, serif;
