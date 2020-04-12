@@ -1,9 +1,9 @@
 body{
     padding-bottom: 61px;
     background-image: url("../images/background_img.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 html{
     position: relative;
@@ -15,14 +15,16 @@ html{
 #brand{
     color: whitesmoke;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
+    margin-left: 5px;
 }
-
 /*navigation style details*/
 .navbar-nav{
     margin-left: auto;
 }
- 
+.navbar{
+    padding: 0;
+} 
 
 /*main section h1 heading*/
 #main-heading{
@@ -92,6 +94,14 @@ h3{
 }
 
 
+/*media query for devices with max screen size 980px*/
+@media screen and (max-width: 980px) {
+
+	/*
+	  No specific rules for large screens at this time.
+	*/
+}
+	
 /*media query for devices with max screen size 768px*/
 @media screen and (max-width:768px){
 #contact-form{
@@ -109,8 +119,14 @@ h3{
     
         }
     }
+
 /*media query for devices with max screen size 640px*/
 @media screen and (max-width:640px){
+.nav-link{
+    
+    font-size: 18px;
+
+}
 #main-heading{
     font-size: 31px;
         }
