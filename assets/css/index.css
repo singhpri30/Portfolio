@@ -35,7 +35,7 @@ html{
 
 /*profile image*/
 .profile-img{
-    margin: 10px 10px 0 0;
+    margin: 6px 10px 0 0;
     width: 250px;
     height: 250px;
     float: left;
@@ -122,10 +122,14 @@ h3{
 
 /*media query for devices with max screen size 640px*/
 @media screen and (max-width:640px){
+.navbar-brand, .navbar-nav{
+    margin-left: 10px;
+ }
 .nav-link{
-    
     font-size: 18px;
-
+}
+.container{
+    padding-left: 10px;
 }
 #main-heading{
     font-size: 31px;
